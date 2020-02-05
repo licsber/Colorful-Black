@@ -5,6 +5,10 @@
 把pdf文件转化为五彩斑斓的pdf！  
 这样看黑白论文的时候就不无聊了（
 
+## 效果图
+
+![](https://github.com/Licsber/Colorful-Black/blob/master/example.jpg)
+
 ## 环境依赖
 
 ```
