@@ -7,7 +7,7 @@
 
 ## 效果图
 
-![](https://github.com/Licsber/Colorful-Black/blob/master/example.jpg)
+![](https://github.com/Licsber/Colorful-Black/raw/master/example.jpg)
 
 ## 环境依赖
 
@@ -27,6 +27,10 @@ python server.py
 异步返回处理结果  
 使用`OSS`减轻网络io负担  
 更多文件图片格式支持
+
+## 介绍文章
+
+[我的博客园: 五彩斑斓的黑](https://www.cnblogs.com/licsber/p/colorful-black.html)
 
 ## 备注
 
