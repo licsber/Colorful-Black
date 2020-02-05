@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五彩斑斓的黑 - Licsber</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+<div class="jumbotron">
+    <h3 id="header">{{message}}</h3>
+    <h2>欢迎试用一键五彩斑斓的黑，支持上传pdf。</h2>
+    <h2>创意By Licsber、Mikewang000000。</h2>
+    <form id="form1" method="post" action="/api/upload" enctype="multipart/form-data">
+        <div>
+            <input id="File1" type="file" name="myfile" class="btn btn-default btn-lg">
+            <button type="submit" class="btn btn-info btn-lg">提交</button>
+        </div>
+    </form>
+</div>
+</body>
+<script>
+    var heading = $("#header")[0];
+    setInterval(function () {
+        if (heading.style.display == "block") {
+            heading.style.display = "none";
+        } else if (heading.style.display == "none") {
+            heading.style.display = "block";
+        }
+    }, 1000);
+</script>
+</html>
