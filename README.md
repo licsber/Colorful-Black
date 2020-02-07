@@ -6,7 +6,7 @@
 这样看黑白论文的时候就不无聊了（
 
 ## 效果图
-
+![](https://img2018.cnblogs.com/blog/1007765/202002/1007765-20200205231311731-1891686149.jpg)
 ![](https://github.com/Licsber/Colorful-Black/raw/master/example.jpg)
 
 ## 环境依赖
